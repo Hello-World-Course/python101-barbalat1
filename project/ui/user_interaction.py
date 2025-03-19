@@ -16,12 +16,12 @@ if user_input.isdigit():
         number_of_mines = int(user_input1)
         half_board_size = ((board_size * board_size) / 2)
         if 0 >= number_of_mines or number_of_mines >= half_board_size:
-            print(f"{name}, you have entered illegal board size")
+            print(f"{name}, you have entered illegal number of mines")
             number_of_mines = 'None'
     else:
-        print("Invalid input! Please enter a number.")
+        print(f"{name}, you have entered illegal number of mines")
 else:
-    print("Invalid input! Please enter a number.")
+    print(f"{name}, you have entered illegal board size")
 
 
 
