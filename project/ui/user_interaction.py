@@ -3,7 +3,7 @@ name = input("Hello, whats your name")
 num_char_name= len(name)
 if num_char_name < 2 :
     print('Your name is too short')
-    name="None"
+    name=None
 
 user_input = input(f"{name}, please choose board size")
 
